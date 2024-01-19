@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Maragsa';
+    src: url('Font/Maragsa-Display.woff2') format('woff2');
+  }
+@font-face {
+    font-family: "Sorts Mill Goudy";
+    src: url('Font/Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf');
+}
+html {
+    font-family: "Sorts Mill Goudy", serif;
+}
+h1 {
+    font-family: 'Maragsa';
+    font-size: 1000%;
+}
+img {
+    border-radius: 15px;
+    padding: 8px;
+    height: 300px;
+    width: 225px;
+
+
+}

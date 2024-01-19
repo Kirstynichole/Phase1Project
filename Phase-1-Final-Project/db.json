@@ -1,0 +1,109 @@
+{
+"Clothing": [
+    {
+        "id": 1,
+        "image": "https://i.pinimg.com/564x/e7/bd/24/e7bd2426e6be931e10dba2b3fc2c1b32.jpg",
+        "type": "top",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "black"
+    },
+    {
+        "id": 2,
+        "image": "https://i.pinimg.com/564x/11/b2/f2/11b2f2ab2c45b400fb56a9fca9708e77.jpg",
+        "type": "dress",
+        "styleDescriptor": "patterned",
+        "colorDecsriptor": "white"
+    },
+    {
+        "id": 3,
+        "image": "https://i.pinimg.com/564x/e4/4c/da/e44cdab24f829a9d1a0e6e3dcbff0762.jpg",
+        "type": "top",
+        "styleDescriptor": "patterned",
+        "colorDecsriptor": "white"
+    },
+    {
+        "id": 4,
+        "image": "https://i.pinimg.com/564x/83/e6/40/83e6403d5c679be824a101465520ae18.jpg",
+        "type": "bottom",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "blue"
+    },
+    {
+        "id": 5,
+        "image": "https://i.pinimg.com/564x/e1/de/7a/e1de7aa7bffacb53a17a62492dc55f7f.jpg",
+        "type": "bottom",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "white"
+    },
+    {
+        "id": 6,
+        "image": "https://i.pinimg.com/736x/64/c7/00/64c7003c37a03965309eea883d7a06c6.jpg",
+        "type": "top",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "white"
+    },
+    {
+        "id": 7,
+        "image": "https://i.pinimg.com/474x/d9/ff/d7/d9ffd7d5258d9aa7c68828019c7d63f9.jpg",
+        "type": "top",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "black"
+    },
+    {
+        "id": 8,
+        "image": "https://i.pinimg.com/564x/0f/6f/db/0f6fdb606f21f5595a1838c944b2ae78.jpg",
+        "type": "dress",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "black"
+    },
+    {
+        "id": 9,
+        "image": "https://i.pinimg.com/564x/cf/74/d2/cf74d2f765af9202f02f39471d1946b2.jpg",
+        "type": "jacket",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "black"
+    },
+    {
+        "id": 10,
+        "image": "https://i.pinimg.com/564x/e5/92/09/e5920907bf3317c19510c7f360ae2efb.jpg",
+        "type": "dress",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "black"
+    },
+    {
+        "id": 11,
+        "image": "https://i.pinimg.com/564x/5b/0a/fe/5b0afe1b6dda8cb1847bffac2ff585b3.jpg",
+        "type": "bottom",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "white"
+    },
+    {
+        "id": 12,
+        "image": "https://i.pinimg.com/736x/af/48/ab/af48ab648175f419bf15333d466b63e3.jpg",
+        "type": "bottom",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "black"
+    },
+    {
+        "id": 13,
+        "image": "https://i.pinimg.com/736x/64/c7/00/64c7003c37a03965309eea883d7a06c6.jpg",
+        "type": "top",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "white"
+    },
+    {
+        "id": 14,
+        "image": "https://i.pinimg.com/564x/b1/1a/04/b11a04f5ec185fc90ed37050c38f7fd3.jpg",
+        "type": "top",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "white"
+    },
+    {
+        "id": 15,
+        "image": "https://i.pinimg.com/564x/6e/72/52/6e725289d4b55ca04ebcd17ce5b272cc.jpg",
+        "type": "top",
+        "styleDescriptor": "neutral",
+        "colorDecsriptor": "white"
+    }
+]
+}
