@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<meta lang="en">
     <html>
     <head>
         <script defer src="./index.js"></script> 
@@ -8,28 +8,144 @@
     </head>
     <body>
         <h1 class ="Header">Closet</h1>
+        <div>
+ 
+        <div>
+        <h4 id="all">
+            Heart items to create today's outfit.
+        </h4>
+        </div>
+
+        <h4>Filter items by type:</h4>
+        <div id="filterButtons">
+        <div>
+            <button class="filterButtons" id="topsFilter" type="button">tops</button>
+        </div>
+        <div>
+            <button class="filterButtons" id="pantsFilter" type="button">pants</button>
+        </div>
+        <div>
+            <button class="filterButtons" id="skirtsFilter" type="button">skirts</button>
+        </div>
+        <div>
+            <button class="filterButtons" id="jacketsFilter" type="button">jackets</button>
+        </div>
+        <div>
+            <button class="filterButtons" id="dressesFilter" type="button">dresses</button>
+        </div>
+        <div>
+            <button class="filterButtons" id="resetFilter" type="button">all</button>
+        </div>
+        </div>
         <div id="closetItems">
+        </div>
+        <h4 id="ootd">
+            
+        </h4>
+        </div>
+        <div id="ootdList">
 
         </div>
-        <p>Test Text</p>
-        <img id="clothing-image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dplaceholder&psig=AOvVaw1YZZNrjrXEhgs2XWTEdHil&ust=1705778234611000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKjEobOV6oMDFQAAAAAdAAAAABAt" alt="Item image goes here" />
-        <div id="clothing-item-info">
-            <h2 id="styleNumber">id goes here</h2>
-            <h3 id="itemType">type goes here</h3>
-            <h3 id="styleDescriptor">neutral, patterned, or embellished goes here</h3>
-            <h3 id="colorDescriptor">item color goes here</h3>
-        </div>
+        <h2 id= styleBanner>Style, wear, repeat.</h2>
         <form id="new-item">
-            <h2>Add a new item here.</h2>
-            <label for="image">image:</label>
+            <h3>Add a new item here.</h3>
+            <label for="image">Image:</label>
             <input type="text" name="image" id="newImage" />
             <fieldset>
-                <label for="type">item type:</label>
-                <input type="radio" name="type" id="newType" value="top" checked />
-                <label for=""
+                <div>
+                <label class="formHeaders" for="type">Type:</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="type" id="top" value="top" checked />
+                    <label for="top">top</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="type" id="pants" value="pants" />
+                    <label for="pants">pants</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="type" id="skirt" value="skirt" />
+                    <label for="skirt">skirt</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="type" id="jacket" value="jacket" />
+                    <label for="jacket">jacket</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="type" id="dress" value="dress" />
+                    <label for="dress">dress</label>
+                </div>
             </fieldset>
-            <label for="styleDescriptor">style descriptor:</label>
-            <label for="colorDecsriptor">color:</label>
+            <fieldset>
+                <div class="formOptions">
+                <label class="formHeaders" for="styleDescriptor">Style descriptor:</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="styleDescriptor" id="solid" value="solid" checked />
+                    <label for="solid">solid</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="styleDescriptor" id="patterned" value="patterned" />
+                    <label for="patterned">patterned</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="styleDescriptor" id="embellished" value="embellished" />
+                    <label for="embellished">embellished</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="formOptions">
+                <label class="formHeaders" for="colorDescriptor">Color:</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="red" value="red" checked />
+                    <label for="red">red</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="orange" value="orange" />
+                    <label for="orange">orange</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="yellow" value="yellow" />
+                    <label for="yellow">yellow</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="green" value="green" checked />
+                    <label for="green">green</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="blue" value="blue" />
+                    <label for="blue">blue</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="purple" value="purple" />
+                    <label for="purple">purple</label>
+                </div>
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="white" value="white" />
+                    <label for="white">white</label>
+                </div> 
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="grey" value="grey" />
+                    <label for="grey">grey</label>
+                </div>                  
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="black" value="black" />
+                    <label for="black">black</label>
+                </div>              
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="brown" value="brown" />
+                    <label for="brown">brown</label>
+                </div>   
+                <div class="formOptions">
+                    <input type="radio" name="colorDescriptor" id="nude" value="nude" />
+                    <label for="nude">nude</label>
+                </div>
+            </fieldset>
+            <input type="submit" value="Add" />
         </form>
     </body>
+    <footer>
+        <p>Made by Kirstyn Canull.</p>
+    </footer>
     </html>
