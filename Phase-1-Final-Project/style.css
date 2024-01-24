@@ -9,20 +9,33 @@
 html {
     font-family: "Sorts Mill Goudy", serif;
 }
-h1 {
+header {
     font-family: 'Maragsa';
     font-size: 200px;
     display: inline-block;
 }
 .filterButtons {
-    display: block;
+    background: black;
+    color: white;
+    font-family: 'Maragsa';
+    border-radius: 4px;
+    height: 20px;
+    align-self: center;
 }
-#filterButtons {
-    width: 100%;
+p#filterHeader {
+    display: inline-block;
+    font-family: 'Maragsa';
+}
+#wholeFilter {
+font-family: 'Maragsa';
+letter-spacing: 1px;
+display: flex;
+justify-content: flex-start;
 }
 h2#styleBanner {
     font-family: 'Maragsa';
     font-size: 125px;
+    letter-spacing: 1px;
     margin-bottom: 200px;
     display: inline-block;
 }
