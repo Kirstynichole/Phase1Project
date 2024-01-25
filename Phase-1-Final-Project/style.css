@@ -38,7 +38,8 @@ h2#styleBanner {
     font-family: 'Maragsa';
     font-size: 125px;
     letter-spacing: 1px;
-    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: inline-block;
 }
 img {
